@@ -4,11 +4,99 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="assets/lib/normalize.css">
+
+    <style>
+     section {
+        height: 100vh;
+        position: relative;
+      }
+      #section1{
+        background-color:white;
+      }
+      #section2{
+        background-color: lightskyblue;
+      }
+      #section3{
+        background-color: lightslategray;
+      }
+      #section4{
+        background-color: orangered;
+      }
+
+      .h1 {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        height: fit-content;
+        width: fit-content;
+        font-size: 10rem;
+      }
+
+      .bar {
+        height: 80px;
+        width: 100%;
+        position: sticky;
+        top: 0;
+      }
+
+      #nav1{
+        background-color: red;
+      }
+
+      #nav2{
+        background-color:blue;
+      }
+
+      #nav3 {
+        background-color:grey;
+      }
+
+      #nav4 {
+        background-color: brown;
+      }
+    
+
+      .p{
+        color: white;
+        font-size: 2rem;
+        font-weight: bold;
+        position: absolute;
+        left: 3%;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        height: fit-content;
+      }
+    </style>
 </head>
 <body>
-    
-    <section>
-        <div class=""></div>
+     <section id="section1">
+      <div class="bar " id="nav1">
+        <p class="p">Card 1</p></div>
+      <h1 class="h1">Hello</h1>
+    </section>
+
+    <section id="section2">
+      <div class="bar" id="nav2">
+        <p class="p">Card 2</p></div>
+      <h1 class="h1">How</h1>
+    </section>
+
+    <section id="section3">
+      <div class="bar" id="nav3">
+        <p class="p">Card 3</p></div>
+      <h1 class="h1">Are</h1>
+    </section>
+
+    <section id="section4">
+      <div class="bar" id="nav4">
+        <p class="p">Card 4</p></div>
+      <h1 class="h1">You..?</h1>
     </section>
 </body>
 </html>
